@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    height: 5000px;
+}
+
+.div1 {
+    background-color: cyan;
+    height: 400px;
+    width: 200px;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.div2 {
+    background-color: magenta;
+    height: 300px;
+    width: 300px;
+}
