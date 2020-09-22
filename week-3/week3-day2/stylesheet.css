@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(141, 145, 140);
+    margin: 0;
+}
+
+.score-bar {
+    background-color: black;
+}
+
+.score {
+    
+    color: rgb(141, 145, 140);
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+    margin-left: 1600px
+}
+
+
+.game-box {
+    /* display: relative; */
+    background-color: black;
+    height: 925px;
+    width: 1860px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+
+.row1 {
+
+    background: black;
+    height: 35px;
+
+}
+
+.row-red .brick {
+    display: inline-block;
+    background: red;
+    height: 30px;
+    width: 116px;
+    border: 2px solid black;
+}
+
+
+.row-yellow .brick {
+    display: inline-block;
+    background: yellow;
+    height: 30px;
+    width: 116px;
+    border: 2px solid black;
+}
+
+.row-yellow .empty-brick {
+    display: inline-block;
+    background: black;
+    height: 30px;
+    width: 116px;
+    border: 2px solid black;
+}
+
+.row-green .brick {
+    display: inline-block;
+    background: green;
+    height: 30px;
+    width: 116px;
+    border: 2px solid black;
+}
+
+.row-blue .brick {
+    display: inline-block;
+    background: blue;
+    height: 30px;
+    width: 116px;
+    border: 2px solid black;
+}
+
+.white-dot {
+    height: 20px;
+    width: 20px;
+    background: white;
+}
+
+.white-dot2 {
+    height: 20px;
+    width: 20px;
+    background: white;
+    margin-left: 100px
+}
+.empty-row {
+    display: inline-block;
+    background: black;
+    height: 30px;
+    width: 116px;
+    border: 2px solid black;
+}
+
+.white-dot3 {
+    height: 20px;
+    width: 20px;
+    background: white;
+    margin-left: 120px;
+    margin-top: 20px
+}
+
+.game-bar {
+    background: rgb(141, 145, 140);
+    height: 30px;
+    width: 200px;
+    margin-top: 530px;
+    margin-left: 850px;
+}
