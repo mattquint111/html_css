@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: #9acd32;
+    height: 20vh;
+}
+
+#main {
+    display: flex;
+    flex-basis: 60%;
+    height: 60vh;
+}
+
+article {
+    /* width: 80vw; */
+    order: 1;
+    flex-basis: 80%;
+}
+
+nav {
+    background-color: #f5f5db;
+    /* width: 10vw; */
+    flex-basis: 10%;
+}
+
+aside {
+    background-color: #f5f5db;
+    order: 2;
+    /* width: 10vw; */
+    flex-basis: 10%;
+}
+
+footer {
+    background-color: #9acd32;
+    height: 20vh;
+}
